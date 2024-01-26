@@ -39,7 +39,15 @@ Common methods in Class Definitions
 
     "getter" methods -- purpose is to retrieve (get) the value of a property of an object
 
+          format:  public DataType getProperty() {
+                       return property;
+                   } // end of getProperty
+
     "setter" methods -- purpose is to store a new value (set) in a property of an object
+
+          format:  public void setProperty( DataType param ) {
+                       property = param;
+                   } // end of setProperty
 
 
 
